@@ -1,0 +1,197 @@
+
+ /* ********************************** ELEMENTS ****************************** */
+
+
+body{
+    font-family: 'Montserrat';
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    
+    font-weight: 900;
+    
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 22px;
+}
+p{
+    color: #8f8f8f;
+}
+
+
+/* **********************************  ID  ****************************** */
+
+
+#title{
+    background-color: #FFC837;
+    
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+   position: relative;
+   
+}
+#testimonials{
+    text-align: center;
+    
+    background-color: #FFC837;
+    color: black;
+}
+
+#press{
+    background-color: #FFC837;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#cta{
+    background-color: #FFC837;
+    text-align: center;
+    padding:5% 15%;
+}
+#footer{
+    padding:7% 15%;
+    text-align: center;
+}
+
+
+/* **********************************  CLASSES  ****************************** */
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn-dwnld{
+    margin: 5% 3% 5% 0;
+}
+.imgine{
+    width:16rem; 
+    
+    position: absolute;
+    transform: rotate(25deg) translateX(100px);
+    bottom: 10%;
+    left: 55%;
+    
+    
+}
+.fbox{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    width: 200px;
+    color: #FFC837;
+    
+    margin-bottom: 1rem;;
+
+}
+.icon:hover{
+    color: #ffb700;
+}
+.testi-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.colm{
+    padding: 3% 2%;
+    
+}
+.price-head{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    
+}
+.foot{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+   
+}
+
+.si{
+    margin: 20px 10px;
+}
+
+
+/* ********************************** MEDIA QUERY ****************************** */
+
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    .imgine{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+@media (max-height: 665px){
+    .imgine{
+        position:static;
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+
+
+
+
+/* 
+Thin            100     
+Extra Light     200
+Light           300
+Regular         400
+Medium          500
+Semi-Bold       600
+Bold            700
+Extra-Bold      800
+Black           900
+ */
